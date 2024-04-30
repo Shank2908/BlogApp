@@ -1,0 +1,28 @@
+.contact-content {
+    padding: 9px;
+    height: 80vh;
+    margin-top: 32px;
+    position: relative;
+    display: block;
+    background-color: rgb(205, 200, 164);
+    overflow: hidden;
+    
+
+}
+
+.content-content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    
+
+
+}
+
+.form-box input, textarea  {
+    width: 45vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+}
